@@ -11,3 +11,5 @@ const msg = ref('');
         <p></p>
     </main>
 </template>
+
+<style scoped></style>
