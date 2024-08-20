@@ -5,21 +5,22 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mon Menu Responsive Moderne</title>
-        <link rel="stylesheet" href="style/style.css">
     </head>
     <body>
-        <div class="nav">
-            <label for="toggle">&#9776;</label>
-            <input type="checkbox" name="" id="toggle">
-            <div class="menu">
-                <a href="#">Accueil</a>
-                <a href="#">Services</a>
-                <a href="#">A propos</a>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div>
-            <h3>Corps de la page</h3>
-        </div>
+        
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        
+        <div id="app"></div>
+
+        <script>
+            const { createApp, ref } = Vue;
+
+            const app = createApp({
+                setup(){}
+            });
+
+            app.mount('#app');
+        </script>
+        
     </body>
 </html>
