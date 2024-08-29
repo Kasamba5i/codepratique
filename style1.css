@@ -20,7 +20,7 @@
     top: 0;
     left: 0;
     position: fixed;
-    background-color: #0f0808;
+    background-color: #1c151c;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     /*background-color: rgb(160, 40, 230);*/
     grid-row: 1 / -12;
@@ -65,7 +65,7 @@ ul li{
 }
 
 .grid-item:nth-child(3){
-    background-color: rgb(230, 40, 113);
+    background-color: #1c151c;
     grid-row: -1 / -1;
     grid-column: 1 / -1;
     position: fixed;
