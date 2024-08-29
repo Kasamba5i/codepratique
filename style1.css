@@ -36,7 +36,7 @@
 }
 
 .grid-item:nth-child(1) .logo{
-    background-image: url("logo01.PNG");
+    background-image: url("tdlogo-ok.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
@@ -73,7 +73,7 @@ ul li{
 }
 
 .grid-item:nth-child(3) .logo{
-    background-image: url("logo01.PNG");
+    background-image: url("tdlogo-ok.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
