@@ -18,10 +18,13 @@
 
 .grid-item:nth-child(1){
     top: 0;
-    background-color: rgb(160, 40, 230);
+    left: 0;
+    position: fixed;
+    background-color: #0f0808;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /*background-color: rgb(160, 40, 230);*/
     grid-row: 1 / -12;
     grid-column: 1 / -1;
-    position: fixed;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     place-items: center;
@@ -77,4 +80,8 @@ ul li{
     width: 45px;
     height: 45px;
     grid-column: 2 / 2;
+}
+
+.grid-item-child:nth-child(1){
+    color: white;
 }
