@@ -17,6 +17,7 @@
 }
 
 .grid-item:nth-child(1){
+    top: 0;
     background-color: rgb(160, 40, 230);
     grid-row: 1 / -12;
     grid-column: 1 / -1;
@@ -24,7 +25,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     place-items: center;
-    top: 0;
 }
 
 .grid-item-child{
